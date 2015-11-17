@@ -1,0 +1,13 @@
+{
+  "name": "stemclub-super-cycle",
+  "version": "1.0.0",
+  "description": "The STEM Club's 2015 project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The GW STEM Club",
+  "dependencies": {
+    "pi-gpio": "0.0.8"
+  }
+}
