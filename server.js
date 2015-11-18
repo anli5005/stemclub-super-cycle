@@ -48,7 +48,7 @@ function setupSegmentDisplay() {
 }
 
 function updateSegmentDisplay(digit, str) {
-  var lastDigit = (digit - 1 < 0) ? 4 : (digit - 1);
+  var lastDigit = (digit - 1 < 0) ? 3 : (digit - 1);
   gpio.write(config.display.pins.digits[lastDigit], 1);
   for (var segment = 0; segment < 7; segment++) {
     gpio.write(config.display.pins.segments[segment], config.display.segments[str.charAt(digit)][segment]);
